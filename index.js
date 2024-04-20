@@ -16,6 +16,7 @@ client.on('message', msg => {
     }
     else {
         msg.reply(msg.content);
+      console.log(msg.content)
     }
 });
 
